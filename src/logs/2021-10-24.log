@@ -1,0 +1,91 @@
+
+Request: POST /api/v1/user/login at 2021-10-24T16:50:37.950+05:30, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123",
+	"id": "b1a181bb-7823-4a57-b2a3-de67f0975af6"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Login successfully.",
+	"ResponseData": {
+		"data": {
+			"type": "Bearer",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxYTE4MWJiLTc4MjMtNGE1Ny1iMmEzLWRlNjdmMDk3NWFmNiIsImlhdCI6MTYzNTA3NDQzNywiZXhwIjoxNjM1MTYwODM3fQ.MoDaHvNKxhM1cNLTAwsN_B8TSYaFuwZ9TT9CIp1x5bg"
+		}
+	},
+	"ResponseError": null
+}
+Response: 200 171.715 ms 
+
+Request: POST /api/v1/user/login at 2021-10-24T17:15:43.912+05:30, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 401,
+	"ResponseText": "Unauthorized user.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 401 8.654 ms 
+
+Request: POST /api/v1/user/login at 2021-10-24T17:15:47.126+05:30, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 401,
+	"ResponseText": "Unauthorized user.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 401 1.812 ms 
+
+Request: POST /api/v1/user/login at Sun Oct 24 2021 17:17:10 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 401,
+	"ResponseText": "Unauthorized user.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 401 8.094 ms 
+
+Request: POST /api/v1/user/login at Sun Oct 24 2021 17:18:10 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Login successfully.",
+	"ResponseData": {
+		"data": {
+			"type": "Bearer",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxYTE4MWJiLTc4MjMtNGE1Ny1iMmEzLWRlNjdmMDk3NWFmNiIsImlhdCI6MTYzNTA3NjA5MCwiZXhwIjoxNjM1MTYyNDkwfQ.JtkdaW-1opkDjrZbLwIAlIgMrSmNw4fTsKTYKnIp03c"
+		}
+	},
+	"ResponseError": null
+}
+Response: 200 269.994 ms 

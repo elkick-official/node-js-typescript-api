@@ -1,0 +1,319 @@
+
+Request: GET / at Thu May 26 2022 21:59:35 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 404 5.499 ms 
+
+Request: GET /v1/role/ at Thu May 26 2022 21:59:53 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 500,
+	"ResponseText": "Something went wrong.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 500 318.530 ms 
+
+Request: GET /v1/role/ at Thu May 26 2022 22:04:06 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": []
+	},
+	"ResponseError": null
+}
+Response: 200 117.983 ms 
+
+Request: POST /v1/role/ at Thu May 26 2022 22:05:13 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 404 3.972 ms 
+
+Request: POST /v1/role at Thu May 26 2022 22:05:20 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 404 1.742 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:05:35 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": "Name is mandatory."
+}
+Response: 422 7.097 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:06:16 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": "Name is mandatory."
+}
+Response: 422 24.529 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:06:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": "Name is mandatory."
+}
+Response: 422 27.168 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:08:07 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": [
+		"Name is mandatory."
+	]
+}
+Response: 422 16.287 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:09:40 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role created successfully.",
+	"ResponseData": {},
+	"ResponseError": null
+}
+Response: 200 315.790 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:09:45 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "user"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role created successfully.",
+	"ResponseData": {},
+	"ResponseError": null
+}
+Response: 200 172.663 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:09:49 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role created successfully.",
+	"ResponseData": {},
+	"ResponseError": null
+}
+Response: 200 166.314 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:09:52 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 8.686 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:14:08 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 131.805 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:15:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 139.168 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:15:25 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 106.481 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:15:37 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 138.105 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:16:01 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 135.245 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:16:16 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 208.771 ms 
+
+Request: GET /v1/role/ at Thu May 26 2022 22:16:46 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": [
+			"seller",
+			"user",
+			"admin"
+		]
+	},
+	"ResponseError": null
+}
+Response: 200 120.271 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:17:53 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 340.086 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:18:45 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 409,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 409 136.843 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:19:52 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 409,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 409 125.971 ms 
+
+Request: GET /v1/role/ at Thu May 26 2022 22:19:55 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": [
+			"seller",
+			"user",
+			"admin"
+		]
+	},
+	"ResponseError": null
+}
+Response: 200 7.929 ms 
+
+Request: POST /v1/role/create at Thu May 26 2022 22:21:06 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "test"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 96.192 ms 

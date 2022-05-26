@@ -1,0 +1,474 @@
+
+Request: POST /api/v1/user/login at Mon Oct 25 2021 20:46:26 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Login successfully.",
+	"ResponseData": {
+		"data": {
+			"type": "Bearer",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxYTE4MWJiLTc4MjMtNGE1Ny1iMmEzLWRlNjdmMDk3NWFmNiIsImlhdCI6MTYzNTE3NDk4NiwiZXhwIjoxNjM1MjYxMzg2fQ.s-DdY_Lvkk7s12BLsZYQvuRWrGcB5WWrg_E7O2CHv18"
+		}
+	},
+	"ResponseError": null
+}
+Response: 200 961.083 ms 
+
+Request: POST /api/v1/user/login at Mon Oct 25 2021 20:46:32 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikusnj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 401,
+	"ResponseText": "Invalid Credential.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 401 7.584 ms 
+
+Request: POST /api/v1/user/login at Mon Oct 25 2021 20:46:34 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"email": "ravaliyanikunj123@gmail.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Login successfully.",
+	"ResponseData": {
+		"data": {
+			"type": "Bearer",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIxYTE4MWJiLTc4MjMtNGE1Ny1iMmEzLWRlNjdmMDk3NWFmNiIsImlhdCI6MTYzNTE3NDk5NCwiZXhwIjoxNjM1MjYxMzk0fQ.L1NB3gloT5YC1cy6uBfMf4zZEQ7kQi2FKBvubBgtcGs"
+		}
+	},
+	"ResponseError": null
+}
+Response: 200 164.940 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:17:00 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response: 404 3.452 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:17:41 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": "First Name is mandatory."
+}
+Response: 422 8.604 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:17:59 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": "Name is mandatory."
+}
+Response: 422 5.424 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:18:14 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 500,
+	"ResponseText": "Something went wrong.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 500 37.720 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:19:42 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 500,
+	"ResponseText": "Something went wrong.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 500 29.990 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:20:52 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 500,
+	"ResponseText": "Something went wrong.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 500 374.390 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:21:09 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 134.680 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:21:34 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 106.687 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:22:03 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role created successfully.",
+	"ResponseData": {},
+	"ResponseError": null
+}
+Response: 200 330.624 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:22:10 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 11.055 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:23 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admisadn"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 6.148 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:28 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 104.095 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:35 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "user"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role created successfully.",
+	"ResponseData": {},
+	"ResponseError": null
+}
+Response: 200 162.642 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:36 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "user"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 4.669 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:42 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role created successfully.",
+	"ResponseData": {},
+	"ResponseError": null
+}
+Response: 200 155.450 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:43 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 4.342 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:44 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 4.076 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:44 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 4.284 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:44 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 4.635 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:47 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "sellersdfdsf"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 0.951 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:51 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "sdfsdfwe"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 0.683 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:31:55 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "superadmin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"ResponseText": "Invalid Role.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 422 0.588 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:32:01 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "super-admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "name",
+	"validationMessage": "Only Character allowed."
+}
+Response: 422 1.979 ms 
+
+Request: POST /api/v1/role/create at Mon Oct 25 2021 21:32:12 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 403,
+	"ResponseText": "Role already exists.",
+	"ResponseData": null,
+	"ResponseError": null
+}
+Response: 403 7.946 ms 
+
+Request: GET /api/v1/role/ at Mon Oct 25 2021 21:42:28 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": {}
+	},
+	"ResponseError": null
+}
+Response: 200 108.126 ms 
+
+Request: GET /api/v1/role/ at Mon Oct 25 2021 21:43:25 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": [
+			{
+				"id": "270b65d4-2fd2-475d-adae-39de89ae52e3",
+				"name": "seller",
+				"created_at": "2021-10-25T16:01:42.000Z",
+				"updated_at": "2021-10-25T16:01:42.000Z"
+			},
+			{
+				"id": "4bc5bd42-db0a-4ed4-8962-9dc9f0a63363",
+				"name": "user",
+				"created_at": "2021-10-25T16:01:34.000Z",
+				"updated_at": "2021-10-25T16:01:34.000Z"
+			},
+			{
+				"id": "791ead03-0fb3-4e65-a020-92c2c05da6c4",
+				"name": "admin",
+				"created_at": "2021-10-25T15:52:03.000Z",
+				"updated_at": "2021-10-25T15:52:03.000Z"
+			}
+		]
+	},
+	"ResponseError": null
+}
+Response: 200 107.110 ms 
+
+Request: GET /api/v1/role/ at Mon Oct 25 2021 21:44:28 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": [
+			"seller",
+			"user",
+			"admin"
+		]
+	},
+	"ResponseError": null
+}
+Response: 200 130.871 ms 
+
+Request: GET /api/v1/role/ at Mon Oct 25 2021 21:44:46 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: Thunder Client (https://www.thunderclient.io)
+Response Body:
+{
+	"status": 1,
+	"ResponseCode": 200,
+	"ResponseText": "Role gets successfully.",
+	"ResponseData": {
+		"roles": [
+			"seller",
+			"user",
+			"admin"
+		]
+	},
+	"ResponseError": null
+}
+Response: 200 106.833 ms 
