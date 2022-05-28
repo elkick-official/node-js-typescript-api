@@ -1,16 +1,6 @@
 const path = require('path')
-require("dotenv").config();
-
-const node_env = process.env.NODE_ENV
-let db_connect_file = "";
-if(node_env === "development"){
-    db_connect_file = "database.development.ts"
-}else{
-    db_connect_file = "database.production.ts"
-}
-
 module.exports = {
-    config: path.resolve(__dirname, 'src', 'config', db_connect_file),
+    config: path.resolve(__dirname, 'src', 'config', 'database.ts'),
     'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations'),
     'seeders-path': path.resolve(__dirname, 'src', 'database', 'seeders')
 }

@@ -2,8 +2,8 @@ import { Router } from 'express'
 import { joiValidate } from '../../helpers/validate'
 import { IsJWTValid } from '../../middlewares/auth/authorized'
 import { userValidate } from '../../middlewares/validators/userValidate'
-import { loginController } from '../../modules/user/useCases/login'
-import { registerController } from '../../modules/user/useCases/register'
+import { loginController } from '../../modules/user/use-cases/login'
+import { registerController } from '../../modules/user/use-cases/register'
 
 const userRoutes = Router()
 

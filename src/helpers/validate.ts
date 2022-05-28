@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express'
-require('dotenv').config()
+import { createFailureResultResponse } from '../shared/domain/domain-result'
 const node_env = process.env.NODE_ENV
 
 const joiValidate = (schema: any) => {
@@ -13,16 +13,14 @@ const joiValidate = (schema: any) => {
       const message = details.map((i: any) => i.message).join(',')
       const key = details.map((i: any) => i.context.key).join(',')
       if (node_env === 'development') {
-        response.status(422).json({
-          status: 0,
-          ResponseCode: 422,
-          validationKey: key,
-          validationMessage: message,
-        })
+        response.status(422).json(
+          createFailureResultResponse(0, {
+            validationKey: key,
+            validationMessage: message,
+          }),
+        )
       } else {
-        response.status(422).json({
-          status: 0,
-          ResponseCode: 422,
+        createFailureResultResponse(0, {
           validationKey: null,
           validationMessage: 'Validation failed',
         })

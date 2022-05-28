@@ -1,11 +1,6 @@
-import { InvalidCredential } from "../invalid-credential"
+import { InvalidCredential } from '../invalid-credential'
 const InvalidCredentialError = (): InvalidCredential => ({
-    status: 0,
-    ResponseCode:401,
-    ResponseText:"Invalid Credential.",
-    ResponseData:null,
-    ResponseError:null,
-    
+  message: 'Invalid Credential.',
 })
 
 export { InvalidCredentialError }

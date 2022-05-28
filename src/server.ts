@@ -1,3 +1,4 @@
+require('dotenv').config()
 import express, { Express, RequestHandler } from 'express'
 import moment from 'moment'
 import morganBody from 'morgan-body'

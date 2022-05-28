@@ -1,39 +1,44 @@
-export interface Response {
-  status: number
-  ResponseCode: number
-  ResponseText: string
-  ResponseData: any
-  ResponseError: any
+export interface DomainResult<Success, Fail> {
+  responseData: Success | Fail
+  isSuccess: () => boolean
+  isFailure: () => boolean
 }
 
-export const createSuccessResult = ({
-  status,
-  ResponseCode,
-  ResponseText,
-  ResponseData,
-  ResponseError,
-}: Response) => ({
-  status,
-  ResponseCode,
-  ResponseText,
-  ResponseData,
-  ResponseError,
+export interface SuccessResultResponse<Success, Fail>
+  extends DomainResult<Success, Fail> {
+  responseStatus: number
+  responseData: Success
+  isSuccess: () => true
+  isFailure: () => false
+}
+
+export interface FailResultResponse<Success, Fail>
+  extends DomainResult<Success, Fail> {
+  responseStatus: number
+  responseData: Fail
+  isSuccess: () => false
+  isFailure: () => true
+}
+
+export const createSuccessResultResponse = <Success, Fail>(
+  responseStatus: number,
+  responseData: Success,
+): SuccessResultResponse<Success, Fail> => ({
+  responseStatus,
+  responseData,
   isSuccess: () => true,
   isFailure: () => false,
 })
 
-export const createFailureResult = ({
-  status,
-  ResponseCode,
-  ResponseText,
-  ResponseData,
-  ResponseError,
-}: Response) => ({
-  status,
-  ResponseCode,
-  ResponseText,
-  ResponseData,
-  ResponseError,
+export const createFailureResultResponse = <Success, Fail>(
+  responseStatus: number,
+  responseData: Fail,
+): FailResultResponse<Success, Fail> => ({
+  responseStatus,
+  responseData,
   isSuccess: () => false,
   isFailure: () => true,
 })
+export type Either<Success, Fail> =
+  | SuccessResultResponse<Success, Fail>
+  | FailResultResponse<Success, Fail>

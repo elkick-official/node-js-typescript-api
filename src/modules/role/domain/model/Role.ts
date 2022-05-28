@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize/types'
 const { DataTypes, Model } = require('sequelize')
 
-class Role extends Model {
+export class Role extends Model {
   static init(sequelize: Sequelize) {
     super.init(
       {
@@ -11,7 +11,10 @@ class Role extends Model {
           defaultValue: DataTypes.UUIDV4,
           allowNull: false,
         },
-        name: DataTypes.STRING,
+        name: {
+          type: DataTypes.STRING,
+          allowNull: false,
+        },
       },
       {
         tableName: 'roles',
@@ -22,4 +25,3 @@ class Role extends Model {
     )
   }
 }
-export { Role }

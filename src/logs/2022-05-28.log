@@ -1,0 +1,954 @@
+
+Request: GET /v1/role/ at Sat May 28 2022 10:36:17 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": [
+				"seller",
+				"user",
+				"asdsadasd",
+				"asd",
+				"admin",
+				"test"
+			]
+		},
+		"error": null
+	}
+}
+Response: 200 27.411 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:36:34 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsadasd"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Role already exists."
+	}
+}
+Response: 400 19.891 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:38:34 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdsdasd"
+}
+Response: 500 56.180 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:43:56 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdsdasd"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 191.355 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:44:37 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdsdasd"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Role already exists."
+	}
+}
+Response: 400 39.561 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:44:42 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdusdasd"
+}
+Response: 500 79.975 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:45:02 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdusdasd"
+}
+Response Body:
+{
+	"error": {}
+}
+Response: 500 58.188 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:48:06 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdusdasd"
+}
+Response Body:
+{
+	"error": {}
+}
+Response: 500 196.311 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:52:31 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdusdasd"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 191.036 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:55:51 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdusdasd"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 189.156 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:59:26 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "asdsaasdusdasd"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Role already exists."
+	}
+}
+Response: 400 36.822 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 10:59:31 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadsad"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 155.671 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:11:40 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadsad"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Role already exists."
+	}
+}
+Response: 400 35.446 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:11:43 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 500 28.714 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:12:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 500 34.233 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:12:46 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 500 8.891 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:13:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 500 54.247 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:13:23 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 500 31.719 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:13:27 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 500 11.217 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:13:40 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": [
+				"asdsaasdsdasd",
+				"asdsaasdusdasd",
+				"asdsaasdusdasd",
+				"seller",
+				"user",
+				"asdsadasd",
+				"asd",
+				"sadsad",
+				"admin",
+				"test"
+			]
+		},
+		"error": null
+	}
+}
+Response: 200 109.370 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:14:27 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": [
+				"asdsaasdsdasd",
+				"asdsaasdusdasd",
+				"asdsaasdusdasd",
+				"seller",
+				"user",
+				"asdsadasd",
+				"asd",
+				"sadsad",
+				"admin",
+				"test"
+			]
+		},
+		"error": null
+	}
+}
+Response: 200 32.289 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:25:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadsad"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Role already exists."
+	}
+}
+Response: 400 33.900 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:25:24 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadszxcxzcad"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 143.538 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:25:50 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadszxcxzcad"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 149.798 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:25:54 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadszxcxzcad"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 161.937 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:34:57 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadszxcxzcad"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 134.057 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:35:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "sadszxcxzcad"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 196.639 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 11:35:14 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 158.812 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 11:35:17 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": [
+				"admin",
+				"sadszxcxzcad"
+			]
+		},
+		"error": null
+	}
+}
+Response: 200 43.404 ms 
+
+Request: DELETE /v1/role/4564645646 at Sat May 28 2022 12:13:31 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response: 404 5.226 ms 
+
+Request: DELETE /v1/role/4564645646 at Sat May 28 2022 12:13:46 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: PostmanRuntime/7.26.8
+Response: 404 9.751 ms 
+
+Request: DELETE /v1/role/delete/4564445 at Sat May 28 2022 12:14:40 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 51.546 ms 
+
+Request: DELETE /v1/role/delete/4564445 at Sat May 28 2022 12:16:16 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 45.177 ms 
+
+Request: DELETE /v1/role/delete/4564445 at Sat May 28 2022 12:16:39 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 51.093 ms 
+
+Request: DELETE /v1/role/delete/4564445 at Sat May 28 2022 12:17:55 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 78.734 ms 
+
+Request: DELETE /v1/role/delete/4564445 at Sat May 28 2022 12:20:41 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 35.815 ms 
+
+Request: DELETE /v1/role/delete/8baf69b5-8b8f-496a-8e67-09873723b2c8 at Sat May 28 2022 12:21:31 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 70.271 ms 
+
+Request: DELETE /v1/role/delete/8baf69b5-8b8f-496a-8e67-09873723b2c8 at Sat May 28 2022 12:25:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 79.314 ms 
+
+Request: DELETE /v1/role/delete/8baf69b5-8b8f-496a-8e67-09873723b2c8 at Sat May 28 2022 12:25:50 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 354.385 ms 
+
+Request: DELETE /v1/role/delete/8baf69b5-8b8f-496a-8e67-09873723b2c8 at Sat May 28 2022 12:27:43 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 33.312 ms 
+
+Request: DELETE /v1/role/delete/7f1c81cf-76e2-4c5c-bc15-e8c4af2aa356 at Sat May 28 2022 12:28:35 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 226.795 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 12:28:38 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": []
+		},
+		"error": null
+	}
+}
+Response: 200 10.612 ms 
+
+Request: DELETE /v1/role/delete/7f1c81cf-76e2-4c5c-bc15-e8c4af2aa356 at Sat May 28 2022 12:28:41 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 5.513 ms 
+
+Request: DELETE /v1/role/delete/7f1c81cf-76e2-4c5c-bc15-e8c4af2aa356 at Sat May 28 2022 12:28:42 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 33.541 ms 
+
+Request: DELETE /v1/role/delete/7f1c81cf-76e2-4c5c-bc15-e8c4af2aa356 at Sat May 28 2022 12:28:42 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 4.598 ms 
+
+Request: DELETE /v1/role/delete/7f1c81cf-76e2-4c5c-bc15-e8c4af2aa356 at Sat May 28 2022 12:28:43 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 23.175 ms 
+
+Request: DELETE /v1/role/delete/7f1c81cf-76e2-4c5c-bc15-e8c4af2aa356 at Sat May 28 2022 12:28:43 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Role."
+	}
+}
+Response: 400 4.711 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:04:59 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"status": 0,
+	"ResponseCode": 422,
+	"validationKey": "userType",
+	"validationMessage": "user type is mandatory."
+}
+Response: 422 11.396 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:06:50 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "userType",
+		"validationMessage": "user type is mandatory."
+	}
+}
+Response: 422 7.345 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:07:36 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "userType",
+		"validationMessage": "user type is mandatory."
+	}
+}
+Response: 422 10.584 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:08:16 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "userType",
+		"validationMessage": "user type is mandatory."
+	}
+}
+Response: 422 6.376 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:08:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": ""
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "userType",
+		"validationMessage": "user type its mandatory"
+	}
+}
+Response: 422 2.906 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:08:50 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "firstName",
+		"validationMessage": "First Name is mandatory."
+	}
+}
+Response: 422 8.022 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:09:03 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "lastName",
+		"validationMessage": "Last Name is mandatory."
+	}
+}
+Response: 422 2.672 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:09:49 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj",
+	"lastName": "ravaliya",
+	"userName": "nik12"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "email",
+		"validationMessage": "email is mandatory."
+	}
+}
+Response: 422 2.190 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:10:10 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj",
+	"lastName": "ravaliya",
+	"userName": "nik12",
+	"email": "nik@gamil.com"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "password",
+		"validationMessage": "password is mandatory."
+	}
+}
+Response: 422 5.007 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:10:29 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj",
+	"lastName": "ravaliya",
+	"userName": "nik12",
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "repeatPassword",
+		"validationMessage": "Repeat Password is mandatory."
+	}
+}
+Response: 422 1.678 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:10:45 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj",
+	"lastName": "ravaliya",
+	"userName": "nik12",
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123",
+	"repeatPassword": "Nikunj@1234"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "repeatPassword",
+		"validationMessage": "Password does not match"
+	}
+}
+Response: 422 2.679 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:11:08 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj",
+	"lastName": "ravaliya",
+	"userName": "nik12",
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123",
+	"repeatPassword": "Nikunj@123"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Internal Server Error"
+	}
+}
+Response: 500 67.419 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 13:25:59 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": []
+		},
+		"error": null
+	}
+}
+Response: 200 25.470 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 13:26:08 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "admin"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 135.777 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 13:26:15 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "seller"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 150.171 ms 
+
+Request: POST /v1/role/create at Sat May 28 2022 13:26:20 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"name": "user"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Role created successfully.",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 133.799 ms 
+
+Request: GET /v1/role/ at Sat May 28 2022 13:26:23 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"roles": [
+				"seller",
+				"admin",
+				"user"
+			]
+		},
+		"error": null
+	}
+}
+Response: 200 6.325 ms 
+
+Request: POST /v1/user/register at Sat May 28 2022 13:50:17 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"userType": "1",
+	"firstName": "nikunj",
+	"lastName": "ravaliya",
+	"userName": "nik12",
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123",
+	"repeatPassword": "Nikunj@123"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"type": "Bearer",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlM2VjOTc2LTZlNWUtNGRlZS05NDVhLTFjODFhYWNjMDk2YiIsImlhdCI6MTY1MzcyNjAxNywiZXhwIjoxNjUzODEyNDE3fQ.q-sn1OoA79KYLI6DLMD7uj28anANqpAyfYlzhD01Tfc",
+			"userType": "1"
+		},
+		"error": null
+	}
+}
+Response: 200 623.161 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 13:52:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"validationKey": "email",
+		"validationMessage": "email is mandatory."
+	}
+}
+Response: 422 10.096 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 13:52:58 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 186.912 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 13:53:06 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"email": "nik@gamil.com",
+	"password": "Nikunj@1234"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 167.700 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 13:54:01 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"email": "nik@gamil.com",
+	"password": "Nikunj@1234"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success",
+		"result": null,
+		"error": null
+	}
+}
+Response: 200 304.580 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 14:17:54 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"email": "nik@gamil.com",
+	"password": "Nikunj@1234"
+}
+Response Body:
+{
+	"responseStatus": 0,
+	"responseData": {
+		"message": "Invalid Credential."
+	}
+}
+Response: 400 187.759 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 14:18:03 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlM2VjOTc2LTZlNWUtNGRlZS05NDVhLTFjODFhYWNjMDk2YiIsImlhdCI6MTY1MzcyNzY4MywiZXhwIjoxNjUzODE0MDgzfQ.gycGcS113YRVJo2uXALbZ2m4eulgxziFqcdfRV8zT4E",
+			"type": "Bearer"
+		},
+		"error": null
+	}
+}
+Response: 200 165.627 ms 
+
+Request: POST /v1/user/login at Sat May 28 2022 14:38:07 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.26.8
+Request Body:
+{
+	"email": "nik@gamil.com",
+	"password": "Nikunj@123"
+}
+Response Body:
+{
+	"responseStatus": 1,
+	"responseData": {
+		"message": "Success.",
+		"result": {
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJlM2VjOTc2LTZlNWUtNGRlZS05NDVhLTFjODFhYWNjMDk2YiIsImlhdCI6MTY1MzcyODg4NywiZXhwIjoxNjUzODE1Mjg3fQ.RRq_k6C4LV6pLyMO0w8l8jOT_lvg04O4qpFI6OOjuUg",
+			"type": "Bearer"
+		},
+		"error": null
+	}
+}
+Response: 200 206.478 ms 

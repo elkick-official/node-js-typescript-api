@@ -1,8 +1,8 @@
-'use strict';
+'use strict'
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable("users", {
+    await queryInterface.createTable('users', {
       id: {
         type: Sequelize.UUID,
         primaryKey: true,
@@ -29,7 +29,7 @@ module.exports = {
         },
         unique: {
           args: true,
-          msg: "The email has already been taken.",
+          msg: 'The email has already been taken.',
         },
       },
       password: {
@@ -39,19 +39,19 @@ module.exports = {
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
       updated_at: {
         type: Sequelize.DATE,
         allowNull: false,
         defaultValue: Sequelize.literal(
-          "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+          'CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP',
         ),
       },
-    });
+    })
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("users");
-  }
-};
+    await queryInterface.dropTable('users')
+  },
+}

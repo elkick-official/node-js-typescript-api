@@ -1,12 +1,7 @@
-import { UserAlreadyRegister } from "../user-already-register"
+import { UserAlreadyRegister } from '../user-already-register'
 
 const UserAlreadyRegisterError = (): UserAlreadyRegister => ({
-    status: 0,
-    ResponseCode:403,
-    ResponseText:"Email already exists.",
-    ResponseData:null,
-    ResponseError:null,
-    
+  message: 'Email already exists.',
 })
 
 export { UserAlreadyRegisterError }
